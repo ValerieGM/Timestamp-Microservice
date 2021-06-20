@@ -33,8 +33,8 @@ app.get("/api/hello", function(req, res) {
 app.get("/api/timestamp", (req, res) => {
     res.json(
         req.time = {
-            unix: new Date().toString(),
-            utc: new Date().getTime()
+            unix: new Date().getTime(),
+            utc: new Date().toString()
         }
     );
 });
