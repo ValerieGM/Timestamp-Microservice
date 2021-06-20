@@ -30,7 +30,7 @@ app.get("/api/hello", function(req, res) {
 });
 
 // api/timestamp
-app.get("/api/timestamp", (req, res) => {
+app.get("/api/", (req, res) => {
     res.json(
         req.time = {
             unix: new Date().getTime(),
@@ -39,7 +39,7 @@ app.get("/api/timestamp", (req, res) => {
     );
 });
 
-// api/timestamp:date?
+// api/:date?
 
 
 // listen for requests :)
