@@ -1,6 +1,6 @@
 # Timestamp-Microservice
 
-Timestap Microservice in NodeJS and Express.
+Timestamp Microservice in NodeJS and Express.
 
 ## Project Setup
 
@@ -8,10 +8,10 @@ Timestap Microservice in NodeJS and Express.
 npm install
 ```
 
-### Runs the app in developement mode
+### Runs the app in development mode
 
 ``` #! /bin /bash
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:{port_number}] to view it in the browser.
